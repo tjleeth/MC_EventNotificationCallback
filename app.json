@@ -1,9 +1,8 @@
 {
   "name": "MC ENS Callback",
   "description": "Marketing Cloud Event Notification Callback",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static", "marketing-cloud", "event-notification"],
+  "repository": "https://github.com/tjleeth/MC_EventNotificationCallback",
+  "keywords": ["node", "express", "callback", "marketing-cloud", "event-notification"],
     "addons": [
     {
       "plan": "heroku-postgresql",
