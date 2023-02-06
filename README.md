@@ -1,7 +1,6 @@
 # Marketing Cloud ENS (Event Notification Service) Callback
 
 
-
 ### About
 Service that consumes MC Event Notification callbacks and writes to database. 
 
@@ -11,6 +10,15 @@ Service that consumes MC Event Notification callbacks and writes to database.
 3)  In Marketing Cloud, create a subscription for the callback created in step 2. 
 
 As soon as events start occuring, they will start to flow into the database attached to your Heroku app.
+
+### Marketing Cloud Docs
+
+**Help Doc** 
+https://help.salesforce.com/s/articleView?id=sf.mc_overview_ens.htm&type=5
+
+**Developer Doc** 
+https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/ens-get-started.html
+
 
 ### Notes
 * This can alternatively be deployed outside of Heroku and connect to any mysql, mssql, or postgres database. Simply ensure the DB_URL environment variable contains the connection string and DB_DIALECT is set to either mysql, mssql, or postgres.
