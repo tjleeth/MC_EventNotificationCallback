@@ -1,4 +1,4 @@
-# MC_EventNotificationCallback
+# Marketing Cloud ENS (Event Notification Service) Callback
 
 
 
